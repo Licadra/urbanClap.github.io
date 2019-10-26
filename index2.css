@@ -21,8 +21,8 @@
   font-size: 1.2em;
 }
 .image p .btn:hover {
-  color:black;
-  border-color: #C57ED3;
+  color:rgb(151, 151, 151);
+  border-color: rgb(119, 77, 128);
 }
 
 .navbar {
@@ -40,56 +40,61 @@
   color: white;
 }
 .navbar-default .navbar-brand:hover {
-  color:black;
-  border: 1px solid #C57ED3;
+  color:rgb(146, 143, 143);
+  border: 1px solid rgb(108, 70, 116);
 }
 .navbar-default .navbar-nav > li > a {
   color: white;
   margin: 10px 5px 5px 5px;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
-  color: #C57ED3;
-  border: 1px solid #C57ED3;
+  color: rgb(165, 105, 177);
+  border: 1px solid rgb(167, 108, 179);
 }
 .navbar-default .navbar-nav > li > a:visited {
-  color: #C57ED3;
+  color: rgb(95, 53, 104);
   text-decoration: none;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;
-  color: #C57ED3;
+  color: rgb(99, 65, 105);
 }
 .navbar-default .navbar-toggle {
-  border-color: #C57ED3;
+  border-color: rgb(86, 57, 92);
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #490D40;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  color: #C57ED3;
-  background-color: #C57ED3;
+  color: rgb(72, 60, 75);
+  background-color: rgb(92, 60, 99);
 }
 .navbar-default .navbar-collapse.collapse.in ul {
   background-color: #490D40;
 }
 
 /* Solid class attached on scroll past first section */
+.navbar.start {
+  background-color: rgb(34, 27, 33);
+  transition: background-color 5s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
 .navbar.solid {
-  background-color: #490D40;
+  background-color: rgb(26, 5, 23);
   transition: background-color 3s ease 0s;
   box-shadow: 0 0 4px grey;
 }
 .navbar.solid .navbar-brand {
-  color: black;
+  color: rgb(122, 121, 121);
   transition: color 2s ease 0s;
 }
 .navbar.solid .navbar-nav > li > a {
-  color: #C57ED3;
+  color: rgb(43, 5, 51);
   transition: color 1s ease 0s;
 }
 
 .about {
-  background-color: #C57ED3;
+  background-color: rgb(128, 81, 138);
   color: #490D40;
   height: 600px;
   text-align: center;
